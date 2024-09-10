@@ -7,15 +7,15 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #000000;
+    color: #c77676;
     padding-bottom: 20px;
 }
 
 /* Encabezado */
 header {
-    background: linear-gradient(135deg, #ff616f, #ffc371);
-    color: white;
+    background: linear-gradient(135deg, #f30505, #0a0201);
+    color: rgb(252, 246, 246);
     text-align: center;
     padding: 20px 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -38,14 +38,14 @@ header h1 {
 
 /* Tarjeta de personaje */
 .personaje {
-    background-color: white;
+    background-color: rgb(194, 192, 192);
     border-radius: 10px;
     width: 280px;
     text-align: center;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
     overflow: hidden;
-    border: 3px solid #ddd;
+    border: 3px solid #8b7d7d;
 }
 
 .personaje:hover {
@@ -57,13 +57,13 @@ header h1 {
 .personaje img {
     width: 100%;
     height: auto;
-    border-bottom: 3px solid #ff616f;
+    border-bottom: 3px solid #f0f1f5;
 }
 
 /* Título del personaje */
 .personaje h2 {
     font-size: 1.8rem;
-    color: #ff616f;
+    color: #df091bd2;
     margin: 10px 0;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
@@ -72,7 +72,7 @@ header h1 {
 .personaje p {
     padding: 0 15px 15px 15px;
     font-size: 1rem;
-    color: #666;
+    color: #070707;
 }
 
 /* Footer */
