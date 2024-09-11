@@ -43,7 +43,7 @@ header h1 {
     text-transform: uppercase; /* Todo en mayúsculas */
     letter-spacing: 2px; /* Espaciado entre letras */
     text-align: center;
-    background: linear-gradient(90deg, red, darkred); /* Degradado en rojo */
+    background: linear-gradient(90deg, rgb(255, 0, 0), rgb(87, 27, 27)); /* Degradado en rojo */
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     text-shadow: 4px 4px 10px rgba(51, 8, 8, 0.50); /* Sombra de texto */
