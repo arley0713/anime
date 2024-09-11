@@ -14,11 +14,13 @@ body {
 
 /* color franja Titulo*/
 .titulo_container{
-    background-color: #000000;
+    background-color: #c71414;
+    background: linear-gradient(135deg, #0a0201, #030202, #0a0201);
+
 }
 /* Encabezado */
 header {
-    background: linear-gradient(135deg, #f30505, #0a0201);
+    background: linear-gradient(135deg, #0a0201, #f30505, #0a0201);
     color: rgb(252, 246, 246);
     text-align: center;
     padding: 20px 0;
